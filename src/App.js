@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import SiderDemo from './layout/Layout.js';
+import SiderDemo from './pages/layout/Layout.js';
 
 function App() {
   return (
