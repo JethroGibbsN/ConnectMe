@@ -7,8 +7,8 @@
 2. Home Page / Activities Page (Kristen) 
 
 4. Chat Game Page
-  - Chat 
-  - Maybe video call??
+  - Chat (Kristen and Krishna)
+  - Maybe video call?? 
   - Chess API (Anastasiya ) 
 
 6. Backend ( Krishna) 
