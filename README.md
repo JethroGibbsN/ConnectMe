@@ -8,7 +8,7 @@
 
 4. Chat Game Page
   - Chat (Kristen and Krishna)
-  - Maybe video call?? 
+  - Maybe video call?? (Krishna)
   - Chess API (Anastasiya ) 
 
 6. Backend ( Krishna) 
