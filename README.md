@@ -4,13 +4,11 @@
 
 1. Landing Page (Bayan)
 
-2. Home Page 
-
-3. Activities Page (Kristen) 
+2. Home Page / Activities Page (Kristen) 
 
 4. Chat Game Page
-
-
-5. Chess API (Anastasiya ) 
+  - Chat 
+  - Maybe video call??
+  - Chess API (Anastasiya ) 
 
 6. Backend ( Krishna) 
