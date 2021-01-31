@@ -1,28 +1,52 @@
 
 
-/* *{
-    background-image: linear-gradient(to bottom right, #A1C4FD, #C2E9FB); 
-   -webkit-background-size: cover;
+.HomePage{
+    overflow: hidden;
+    background-image: url('../img/background2.svg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; 
-} */
-
-div#homepage_title{
-    width: 350px;
-    height: 68px;
-    background-color: #A4D0D9 ;
-    color: white ;
-    font-size: 39px;
-    font-weight: bold;
-    text-align: center;
-    padding-top:0px;
-    border-radius: 18px;
-    margin-top: 20px;
-    margin-left:580px;
-    /* border: 0px solid #07A2A6; */
-
+    height: 1080px;
 }
+
+.hero{
+     /* background: url('./pages/landing-page/img/background1.png'); */
+    /* margin-top: 4%; */
+    margin-top: -3%;
+    background-size: cover;
+    padding: 1rem 1rem;
+    /* Grid styles */
+    display: grid;
+    text-align: center;
+    align-items: center;
+     /* this is the same as grid-template-rows: 300px 300px; it will create 2 columns with minmax() calculating 
+    automatically the size of the track, based on the width of the viewport,
+     */
+     /* auto-fit keyword allows us to wrap our columns into rows when there’s not enough space in our viewport to fit the 240px minimum value without overflowing the content. */
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+   
+.hero2{
+    /* background: url('./pages/landing-page/img/background1.png'); */
+   /* margin-top: 4%; */
+   margin-left: 10.7%;
+   margin-top: -5%;
+   background-size: cover;
+   padding: 1rem 1rem;
+   /* Grid styles */
+   display: grid;
+   text-align: center;
+   align-items: center;
+    /* this is the same as grid-template-rows: 300px 300px; it will create 2 columns with minmax() calculating 
+   automatically the size of the track, based on the width of the viewport,
+    */
+    /* auto-fit keyword allows us to wrap our columns into rows when there’s not enough space in our viewport to fit the 240px minimum value without overflowing the content. */
+   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
 .card{
     border-radius: 18px;
     margin: 6px 20px 15px 20px;
@@ -30,49 +54,4 @@ div#homepage_title{
 .container{
     margin: 30px 260px 0px ;
 }
-/* 
-div#cards{
-    width: 1000px;
-    height: 578px; 
-    background-color: black;
-    margin-top: 37px;
-    margin-left:250px;
-     display : flex; 
-     align-item : center; 
-     justyfy-content : center; 
-/
-}
-div.card{
-    width:287px;
-    height: 273px;
-    border-radius:18px;
-    background-color: violet;
-    /* background-image:url(".\card1_activity.jpg") ; */
-    /* box-shadow: 3px 3px 3px #07A2A6;
-    margin: 60px 13px;
-    margin-right: 60px;
-    margin-left: 60px;
-    margin-top:13px;
-    margin-bottom:13px;
-    display : flex; */
-    /* align-item : center;
-    justyfy-content : center; */
-    /* transition: 0.3s; */
 
-/* .cards :hover{
-    transform: translate(0, -10px);
-} */
-/* div.cardtext{
-    width: 156px;
-    height: 47px;
-    border-radius: 18px;
-    font-size: 21px;
-    font-weight: bold;
-    text-align: center;
-    color: white;
-    text-align: center;
-    background-color: #07A2A6;
-    padding-top: 9.5px;
-    margin:210px auto;
-
-} */ 

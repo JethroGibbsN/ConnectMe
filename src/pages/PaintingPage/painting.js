@@ -8,11 +8,12 @@ import Footer from  '../layout/Layout.js';
 class Demo extends Component {
   state = {
     color: "#ffc600",
-    width: 400,
-    height: 400,
+    width: 500,
+    height: 500,
     brushRadius: 10,
     lazyRadius: 12
   };
+
   componentDidMount() {
     // let's change the color randomly every 2 seconds. fun!
     window.setInterval(() => {
@@ -24,9 +25,14 @@ class Demo extends Component {
   render() {
     return (
       <div className='PaintingPage'>
-        <h1>React Canvas Draw</h1>
-    
-        <CanvasDraw
+               <div className='center'>
+          <button id="center" className="main-title"> Lets Paint Together</button>    
+         </div>
+          <div className='center'>         
+                <button className='paragraph'>Paint together and learn new art techniques!</button>
+       
+       
+                <CanvasDraw className='canvas-board'
           ref={canvasDraw => (this.saveableCanvas = canvasDraw)}
           brushColor={this.state.color}
           brushRadius={this.state.brushRadius}
@@ -35,6 +41,13 @@ class Demo extends Component {
           canvasHeight={this.state.height}
         />
       <Footer/>
+       
+       
+       
+        </div>
+     
+    
+     
       </div>
     );
   }

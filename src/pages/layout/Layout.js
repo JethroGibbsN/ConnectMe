@@ -9,16 +9,16 @@ const Footer = () => {
         <div> 
             <footer className='footer'>
                 <div className='hero center'> 
-                    <a href="#" className='button-style'>
+                    <a href= "http://localhost:3000/"className='button-style'>
                         Activities
                     </a>
-                    <a href="#" className='button-style'>
+                    <a href= "http://localhost:3000/chess" className='button-style'>
  
                         Chat
                     </a>
                     <a href="#" className='button-style'>
                        
-                      My Profile
+                     People Online
                     </a>
                 </div>
             </footer>
