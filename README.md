@@ -1,4 +1,4 @@
-# ConnectMe
+# ConnectMe🎨🗺️🍳😊
 
 ## Inspiration
 Humans are social beings and with this unusual situation we live in, people are facing many challenges that  led to psychological and emotional impact. The reduction of the  physical interaction and the social isolation affect our mental health. It is getting significantly difficult to hangout with your loved ones and meet new people._ Seniors and elderly people_ were our basic concerns. This is why we wanted to create a tool where people from different ages and backgrounds can connect using our **ConnectMe** tool. 
