@@ -1,4 +1,6 @@
 import react from 'react';
+
+
 import SiderDemo from  '../layout/Layout.js';
 import card1 from '../img/card1.jpg'
 import card2 from '../img/card2.jpg'
@@ -30,6 +32,7 @@ function HomePage() {
           <a href= "https://meet.google.com/bnp-nset-gim" class ="card" ><img src={card5} width="287" height="263"></img></a>
           <a href= "https://meet.google.com/bnp-nset-gim" class ="card" ><img src={card6} width="287" height="263"></img></a>
             </div>
+
 
       </div>
     );

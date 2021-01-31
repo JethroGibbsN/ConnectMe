@@ -1,8 +1,10 @@
-div{
+/* div{
     background-image: linear-gradient(to bottom right, #A1C4FD, #C2E9FB);
     height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-}
+   
+    z-index:9999;
+} */
+

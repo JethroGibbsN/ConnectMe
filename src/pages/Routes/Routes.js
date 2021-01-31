@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import { Route, Switch } from "react-router";
 
-
 import ChatPage from '../ChatPage/Chat.js'
 import LandingPage from '../LandingPage/Landing.js'
 import HomePage from '../HomePage/Home.js'
@@ -19,7 +18,6 @@ const Routes =()=>{
             </Switch>
         </div>
     </Router>
-
     );
 };
 
