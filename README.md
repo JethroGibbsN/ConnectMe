@@ -16,7 +16,7 @@ Humans are social beings and with this unusual situation we live in, people are 
 - chess_api
 - AdobexD
 
-## Challenges I ran into
+## Challenges We ran into
 - Visualization Utilization in React
 
 ## What's next for ConnectMe
