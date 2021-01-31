@@ -1,5 +1,6 @@
 .footer{
-    height: 140px;
+    margin-top: -1.2%;
+    height: 120px;
     background-color: #FFFFFF;
     position: absolute;
     left: 0;
@@ -56,7 +57,7 @@
     margin-right: auto;
 } */
 a.button-style{
-    margin-left: 18%;
+    margin-left: 5%;
     text-align: center;
     align-items: center;
 }

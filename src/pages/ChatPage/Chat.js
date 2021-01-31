@@ -14,6 +14,7 @@ function ChatPage() {
           <button className='paragraph'>You can now play a match tournamet with your new friend! </button>
         </div>
 
+
       <Demo/>
 
       <Footer/>

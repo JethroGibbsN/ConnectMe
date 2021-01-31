@@ -10,7 +10,6 @@ const Footer = () => {
             <footer className='footer'>
                 <div className='hero center'> 
                     <a href="#" className='button-style'>
-                        
                         Activities
                     </a>
                     <a href="#" className='button-style'>
