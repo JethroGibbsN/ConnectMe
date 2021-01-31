@@ -1,8 +1,62 @@
-/* div{
-    background-image: linear-gradient(to bottom right, #A1C4FD, #C2E9FB);
-    height: 100%;
+
+
+.HomePage{
+    overflow: hidden;
+    background-image: url('../img/background2.svg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    height: 1080px;
+}
+
+.hero{
+     /* background: url('./pages/landing-page/img/background1.png'); */
+    /* margin-top: 4%; */
+    margin-top: -3%;
     background-size: cover;
-} */
+
+} 
+.hero2{
+    padding: 1rem 1rem;
+    /* Grid styles */
+    display: grid;
+    text-align: center;
+    align-items: center;
+     /* this is the same as grid-template-rows: 300px 300px; it will create 2 columns with minmax() calculating 
+    automatically the size of the track, based on the width of the viewport,
+     */
+     /* auto-fit keyword allows us to wrap our columns into rows when there’s not enough space in our viewport to fit the 240px minimum value without overflowing the content. */
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+   
+.hero2{
+    /* background: url('./pages/landing-page/img/background1.png'); */
+   /* margin-top: 4%; */
+   margin-left: 10.7%;
+   margin-top: -5%;
+   background-size: cover;
+   padding: 1rem 1rem;
+   /* Grid styles */
+   display: grid;
+   text-align: center;
+   align-items: center;
+    /* this is the same as grid-template-rows: 300px 300px; it will create 2 columns with minmax() calculating 
+   automatically the size of the track, based on the width of the viewport,
+    */
+    /* auto-fit keyword allows us to wrap our columns into rows when there’s not enough space in our viewport to fit the 240px minimum value without overflowing the content. */
+   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.card{
+    border-radius: 18px;
+    margin: 6px 20px 15px 20px;
+}
+.container{
+    margin: 30px 260px 0px ;
+}
+
+
+

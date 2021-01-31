@@ -1,77 +1,4 @@
 .ChatPage{
-    padding-top: 30px;
-    background-color: rgb(116, 206, 211);
-    /* background-color: linear-gradient(to bottom right, #A1C4FD, #C2E9FB); */
-    /* opacity: 0.5; */
-}
-/* div{
-    background-image: linear-gradient(to bottom right, #A1C4FD, #C2E9FB);
-     height: 100%; 
-     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-} */
-
-
-#chessplayer_title{
-    width: 480px;
-    height: 68px;
-    border-radius: 18px;
-    color: white;
-    font-size: 39px;
-    font-weight: bold;
-    text-align: center;
-    margin:0 auto;
-    background-color: #A4D0D9;
-
-}
-#container{
-    background-color: transparent;
-    width: 60%;
-    /* width: 800px;
-    height:1000px; */
-    margin: 30px auto;
-    /* text-align: center; */
-    display: flex;
-    align-items: center;
-    flex-wrap:  wrap;
-    max-width: 850px;
-}
-
-.profile {
-    display: flex;
-    height: 420px;
-    margin: 20px 20px;
-    position: relative;
-    flex-direction: column;
-    align-items: center;
-    flex-grow: 1;
-}
-
-  
-  .profile img {
-    width: 200%;
-    /* height: auto; */
-  }
-  
-  .profile .btn {
-    position: relative;
-    background-color: #07A2A6;
-    color: white;
-    font-weight: bold;
-    font-size: 21px;
-    padding: 8px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 18px;
-    text-align: center;
-    top:-77px;
-}
-  
-  .profile .btn:hover {
-    background-color: #0ae6af;
-
     overflow: hidden;
     background-image: url('../img/background2.svg');
     background-repeat: no-repeat;
@@ -80,7 +7,7 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    height: 1080px;
+    height: 800px;
 }
 
 .center{
@@ -176,3 +103,23 @@ button:hover{
   .container .btn:hover {
     background-color: black;
   }
+
+  .hero{
+      /* Columns  */
+   /* display: grid is changing the behavior of the .hero element to be a grid container.
+    That means the elements inside .hero are now grid items. */
+    /* background: url('./pages/landing-page/img/background1.png'); */
+    background-size: cover;
+    padding: 4rem 2rem;
+    margin-left: 10%;
+    /* Grid styles */
+    display: grid;
+    align-items: center;
+     /* this is the same as grid-template-rows: 300px 300px; it will create 2 columns with minmax() calculating 
+    automatically the size of the track, based on the width of the viewport,
+     */
+     
+     /* auto-fit keyword allows us to wrap our columns into rows when there’s not enough space in our viewport to fit the 240px minimum value without overflowing the content. */
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+ 
