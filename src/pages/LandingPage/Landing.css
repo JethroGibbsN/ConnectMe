@@ -1,8 +1,135 @@
-div{
+
+/* div{
     background-image: linear-gradient(to bottom right, #A1C4FD, #C2E9FB);
     height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
+} */
+
+html{
+    overflow: hidden;
 }
+
+h2 {
+    color:white;
+    font-family: 'Great wishes';
+    text-align: left; 
+    font-size: 110px;
+}
+
+.Nav{
+    width: 1518px;
+    height: 108px;
+   
+}
+.Navbar a {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    background-color: #A3C6FB;
+
+    
+  }
+
+  .LandingPage{
+    background-color: #A3C6FB;
+    height: 2000px;
+    width: 1518px;
+}
+.Connect{
+    background-color: #A3C6FB;
+    height: 272px;
+    width:300px;
+    padding-left: 11%;
+    padding-top: 7%;
+}
+.searchBox {
+   background-color: #07A2A6;
+   border: none;
+   height: 80px;
+   width: 600px;
+
+
+}
+
+
+h4{
+    color:white;
+    font-family:'Montserrat';
+    text-align: center; 
+    font-size: 25px;
+}
+
+.image {
+    
+    width:500px; 
+    height:500px;
+    margin-right: 30px;
+    margin-left: 900px;
+    margin-top: 1px;
+
+ }
+
+ img{
+     width: 500px;
+     height:500px;
+     float: right;  
+     border-radius: 40px; 
+    
+ } 
+
+ .Group{
+
+    background-color: #07A2A6;
+    height: 90px;
+    width: 100px;
+    
+  
+}
+h5{
+    color:rgb(255, 255, 255);
+    font-family:'Montserrat';
+    text-align: center;
+    font-size: 30px;
+    padding: 2%;
+    
+    
+}
+
+.container { 
+    width:600px; 
+    height:190px; 
+    padding-top:20px; 
+    padding-left:15px; 
+    padding-right:15px; 
+} 
+
+#leftbox { 
+    float:left;  
+    background:#FCF0A6; 
+    border-color: #07A2A6;
+    width:25%; 
+    height:280px; 
+} 
+#middlebox{ 
+    float:left;  
+    background:#FCF0A6; 
+    border-color: #07A2A6;
+    width:50%; 
+    height:280px; 
+} 
+#rightbox{ 
+    float:right; 
+    background:#FCF0A6; 
+    border-color: #07A2A6;
+    width:25%; 
+    height:280px; 
+} 
+ 
