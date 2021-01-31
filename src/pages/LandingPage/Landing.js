@@ -1,84 +1,56 @@
-import react from 'react';
+import react from "react";
 import "./Landing.css";
-import hand from '../img/hands.PNG';
-
-
+import hand from "../img/hands.PNG";
+import box1 from "../img/box1.PNG";
+import box2 from "../img/box2.PNG";
+import box3 from "../img/box3.PNG";
 
 function LandingPage() {
-    return (
-      <div className="LandingPage">
-
-        <div className="Nav">
-          
-          <div className="Navbar">
-       
-        
-         <a href="#signup">Sign Up</a>
-         <a href="#activities">Activities</a>
-         <a href="#about">About</a>
-
-
-          </div>
-         </div>
-
-
-         <div className="Connect">
-        
-         <h2>ConnectMe</h2> 
-         
-         <div className="searchBox">
-
-          <h4>Search for interests and Find a Matual Friend</h4>
-
+  return (
+    <div className="LandingPage">
+      <div className="Nav">
+        <div className="Navbar">
+          <a href="#signup">Sign Up</a>
+          <a href="#activities">Activities</a>
+          <a href="#about">About</a>
         </div>
-
-        </div>
-
-        
-
-        {/* <div className="image"> 
-
-            <img src="https://unsplash.com/photos/bo3SHP58C3g" alt="Girl in a jacket" width="500" height="600"> </img>
-          
-        </div> */}
-
-        <div className="image" >
-
-        <img src={hand} ></img>
-
-        </div>
-
-        {/* <img src={hand} max-height="100%" max-width="100% "> </img> */}
-       
-        
-
-
-
-        <div id = "boxes"> 
-            <h1><h5>Join Group Activities</h5></h1> 
-              
-            <div id = "leftbox"> 
-                <h5>Connect</h5> 
-                <div id="littleBox"> <h6>connect</h6></div>
-                
-            </div>  
-              
-            <div id = "middlebox"> 
-                <h5>Learn</h5> 
-                <div id="littleBox"> <h6>connect</h6></div>
-                
-            </div> 
-              
-            <div id = "rightbox"> 
-                <h5>Teach</h5> 
-                <div id="littleBox"> <h6>connect</h6></div>
-              
-            </div> 
-        </div> 
-
-
       </div>
-    );
-  }
-  
-  export default LandingPage;
+
+      <div className="flex2">
+        <div>
+          <h2>ConnectMe</h2>
+          <div className="searchBox">
+            <h4>Search for interests and Find a Matual Friend</h4>
+          </div>
+        </div>
+
+        <img className="img1" src={hand}></img>
+      </div>
+
+      <div className="flex3">
+        <img src={box1}></img>
+        <img src={box2}></img>
+        <img src={box3}></img>
+      </div>
+
+      <div className="aboutUs">
+        <h2 className="h22">About Us</h2>
+        <p>
+          <i>ConnectMe</i>
+        </p>
+        <p>
+          With the evolving situation during the pandemic, people are facing
+          many challenges. Such as socializing with others. It is getting very
+          difficult to hangout with your loved ones and meeting new people. This
+          leads to a huge affect on our mental health. This is why we wanted to
+          create a tool where people from diffrent ages and backgrounds can
+          connect using ConnectMe tool. It gives a chance to meet new people who
+          have similar interests to yours to talk about it, teach it, and learn
+          it.
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default LandingPage;
