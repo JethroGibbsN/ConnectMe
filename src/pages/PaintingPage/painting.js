@@ -3,26 +3,42 @@ import Footer from  '../layout/Layout.js';
 import './painting.css'
 
 import ReactPlayer from "react-player"
+import { CanvasProvider } from "./CanvasContext";
+import { Canvas } from './Canvas'
+import { ClearCanvasButton } from './ClearCanvasButton';
 
-
-function ChatPage() {
+function Painting() {
     return (
       <div className="ChatPage">
         <div className='center'>
-          <button id="center" className="main-title"> Lets Paint Together!</button>    
+          <button id="center" className="main-title"> Lets Paint Together</button>    
         </div>
 
         <div className='center'> 
-          <button className='paragraph'>Paint your favorite art works and learn new art techniques.</button>
+          <button className='paragraph'>Watch videos to learn new receipies from different cultures! </button>
         </div>
 
-
+    
      
-      <Footer/>
-
+        <Footer/>
       </div>
 
     );
   }
   
-  export default ChatPage;
+  export default Painting;
+
+  // <Canvas/>
+  // <ClearCanvasButton/>
+
+
+
+//   <div className='hero'>
+//         <ReactPlayer
+//         url="https://www.youtube.com/watch?v=ug50zmP9I7s"
+//          />
+//          <ReactPlayer
+//          url="https://www.youtube.com/watch?v=ug50zmP9I7s"
+//           />
+
+//         </div>

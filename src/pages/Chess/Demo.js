@@ -8,7 +8,7 @@ class Demo extends Component {
       <div>
         <div style={boardsContainer}>
         
-        <Chessboard position="start"/>
+        <WithMoveValidation />
 
         </div>
       </div>
@@ -17,6 +17,7 @@ class Demo extends Component {
 }
 
 export default Demo;
+// <Chessboard className='chess-board' position="start"/>
 // <WithMoveValidation />
 // <Chessboard position="start"/>
 const boardsContainer = {
