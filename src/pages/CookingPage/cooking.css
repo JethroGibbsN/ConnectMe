@@ -7,7 +7,7 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    height: 1080px;
+    height: 800px;
 }
 
 .center{
@@ -103,3 +103,23 @@ button:hover{
   .container .btn:hover {
     background-color: black;
   }
+
+  .hero{
+      /* Columns  */
+   /* display: grid is changing the behavior of the .hero element to be a grid container.
+    That means the elements inside .hero are now grid items. */
+    /* background: url('./pages/landing-page/img/background1.png'); */
+    background-size: cover;
+    padding: 4rem 2rem;
+    margin-left: 10%;
+    /* Grid styles */
+    display: grid;
+    align-items: center;
+     /* this is the same as grid-template-rows: 300px 300px; it will create 2 columns with minmax() calculating 
+    automatically the size of the track, based on the width of the viewport,
+     */
+     
+     /* auto-fit keyword allows us to wrap our columns into rows when there’s not enough space in our viewport to fit the 240px minimum value without overflowing the content. */
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+ 
