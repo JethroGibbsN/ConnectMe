@@ -24,34 +24,6 @@ import './Chat.css'
 function ChatPage() {
     return (
       <div className="ChatPage">
-
-
-          <div id='chessplayer_title'>
-            Chess Players Online
-          </div>
-
-          <div id="container">
-            
-            <div class="profile">
-              <img src={profile1} style={{width:"321px", height:"435px"}}></img>
-              <button class="btn">Connect</button>
-            </div>
-            <div class="profile">
-              <img src={profile2} style={{width:"321px", height:"435px"}}></img>
-              <button class="btn">Connect</button>
-            </div>
-            <div class="profile">
-              <img src={profile3} style={{width:"321px", height:"435px"}}></img>
-              <button class="btn">Connect</button>
-            </div>
-            <div class="profile">
-              <img src={profile4} style={{width:"321px", height:"435px"}}></img>
-              <button class="btn">Connect</button>
-            </div>
-            
-            
-
-          </div>
         <div className='center'>
           <button id="center" className="main-title"> Chess Game</button>    
         </div>
@@ -60,15 +32,9 @@ function ChatPage() {
           <button className='paragraph'>You can now play a match tournamet with your new friend! </button>
         </div>
 
-
       <Demo/>
 
       <Footer/>
-      </div>
-
-
-
-
       </div>
     );
   }

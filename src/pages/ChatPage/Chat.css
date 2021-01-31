@@ -1,178 +1,47 @@
-.ChatPage{
-    padding-top: 30px;
-    background-color: rgb(116, 206, 211);
-    /* background-color: linear-gradient(to bottom right, #A1C4FD, #C2E9FB); */
-    /* opacity: 0.5; */
-}
-/* div{
-    background-image: linear-gradient(to bottom right, #A1C4FD, #C2E9FB);
-     height: 100%; 
-     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-} */
-
-
-#chessplayer_title{
-    width: 480px;
-    height: 68px;
-    border-radius: 18px;
-    color: white;
-    font-size: 39px;
-    font-weight: bold;
-    text-align: center;
-    margin:0 auto;
-    background-color: #A4D0D9;
-
-}
-#container{
-    background-color: transparent;
-    width: 60%;
-    /* width: 800px;
-    height:1000px; */
-    margin: 30px auto;
-    /* text-align: center; */
-    display: flex;
-    align-items: center;
-    flex-wrap:  wrap;
-    max-width: 850px;
-}
-
-.profile {
-    display: flex;
-    height: 420px;
-    margin: 20px 20px;
-    position: relative;
-    flex-direction: column;
-    align-items: center;
-    flex-grow: 1;
-}
-
-  
-  .profile img {
-    width: 200%;
-    /* height: auto; */
-  }
-  
-  .profile .btn {
-    position: relative;
-    background-color: #07A2A6;
-    color: white;
-    font-weight: bold;
-    font-size: 21px;
-    padding: 8px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 18px;
-    text-align: center;
-    top:-77px;
-}
-  
-  .profile .btn:hover {
-    background-color: #0ae6af;
-
-    overflow: hidden;
-    background-image: url('../img/background2.svg');
+.HomePage{
+  overflow: hidden;
+  background-image: url('../img/background2.svg');
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
+    height: 1080px; 
     -o-background-size: cover;
-    height: 1080px;
+    -moz-background-size: cover;
 }
 
-.center{
-   text-align: center;
-}
-.main-title{
-    font-family: 'Great Wishes', sans-serif;
-    margin-top: 3%;
-    background-color: #07A2A6;
-    border-radius: 12px;
-    border-color: #07A2A6;
-    border-width: 10px;
-    border-style: none;
-    font-size: 45px;
-    box-shadow: 0px 3px 6px #3FB0AC;
-    color: white;
-    text-decoration: none;
-
-}
-.paragraph{
-    margin-top: 1%;
-    font-weight:;
-    color:#007578;
-    font-family: dinosaur, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 25px;
-    background-color: #A4D0D9;
-    border-radius: 12px;
-    box-shadow: 0px 3px 6px #3FB0AC;
-    width:40%;
-    text-decoration: none;
-    border-color: #07A2A6;
-    border: none;
-}
-button{
-    width: 20%;
+.hero{
+  margin-top: -3%;
+  background-size: cover;
+  padding: 1rem 1rem;
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
-button:hover{
-    text-decoration: none;
+.hero2{
+  /* background: url('./pages/landing-page/img/background1.png'); */
+ /* margin-top: 4%; */
+ margin-left: 10.7%;
+ margin-top: -5%;
+ background-size: cover;
+ padding: 1rem 1rem;
+ /* Grid styles */
+ display: grid;
+ text-align: center;
+ align-items: center;
+  /* this is the same as grid-template-rows: 300px 300px; it will create 2 columns with minmax() calculating 
+ automatically the size of the track, based on the width of the viewport,
+  */
+  /* auto-fit keyword allows us to wrap our columns into rows when there’s not enough space in our viewport to fit the 240px minimum value without overflowing the content. */
+ grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 .card{
-    width: 280px; 
-    height: 280px;
+  border-radius: 18px;
+  margin:  6px 20px 15px 20px;
 }
 
-.button-learn{ 
-    /* margin-top: -10%; */
-    width: 5%;
-    font-size: 20px;
-    padding: 10px 10px;
-    /* height: 2.4rem; */
-    background: #3FB0AC;
-    color: white;
-    cursor: pointer;
-    align-items: center;
-    text-decoration: none;
-    transition-duration: 0.4s;
-    box-shadow: 0px 3px 6px #3FB0AC;
-    border-radius: 10px;
-    opacity: 1;
+.container{ 
+  margin:30px 260px 0px ; 
 }
-
-.container {
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-  }
-  
-  .container img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .container .btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-  }
-
-  .container .btn:hover {
-    background-color: black;
-  }

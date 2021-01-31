@@ -9,7 +9,7 @@ function LandingPage() {
     <div className="LandingPage">
       <div className="Nav">
         <div className="Navbar">
-          <a href="#signup">Sign Up</a>
+          <a href="http://localhost:3000/">Sign Up</a>
           <a href="#activities">Activities</a>
           <a href="#about">About</a>
         </div>
