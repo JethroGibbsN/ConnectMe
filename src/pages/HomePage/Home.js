@@ -29,7 +29,7 @@ function HomePage() {
 
            <div class="hero">
    <a href= "http://localhost:3000/painting" class ="card" ><img src={card1} width="287" height="263"></img></a>
-   <a href= "http://localhost:3000/chess" class ="card" ><img src={card2} width="287" height="263"></img></a>
+   <a href= "http://localhost:3000/online" class ="card" ><img src={card2} width="287" height="263"></img></a>
    <a href= "https://meet.google.com/bnp-nset-gim" class ="card" ><img src={card3} width="287" height="263"></img></a>
  </div>
  <div class="hero2">
@@ -39,23 +39,11 @@ function HomePage() {
  </div>
 
 
-
         <Footer/>
       </div>
     );
   }
   
   export default HomePage;
-
-//   <div class="container">
-//   <a href= "https://meet.google.com/bnp-nset-gim" class ="card" ><img src={card1} width="287" height="263"></img></a>
-//   <a href= "https://meet.google.com/bnp-nset-gim" class ="card" ><img src={card2} width="287" height="263"></img></a>
-//   <a href= "https://meet.google.com/bnp-nset-gim" class ="card" ><img src={card3} width="287" height="263"></img></a>
-// </div>
-// <div class="container">
-//   <a href= "https://meet.google.com/bnp-nset-gim" class ="card" ><img src={card4} width="287" height="263"></img></a>
-//   <a href= "https://meet.google.com/bnp-nset-gim" class ="card" ><img src={card5} width="287" height="263"></img></a>
-//   <a href= "https://meet.google.com/bnp-nset-gim" class ="card" ><img src={card6} width="287" height="263"></img></a>
-// </div>
 
 

@@ -7,6 +7,7 @@ import LandingPage from '../LandingPage/Landing.js'
 import HomePage from '../HomePage/Home.js'
 import CookingPage from '../CookingPage/cooking.js'
 import PaintingPage from '../PaintingPage/painting.js'
+import OnlinePage from '../OnlinePeoplePage/online.js'
 // import SiderDemo from '../layout/Layout.js'
 
 const Routes =()=>{
@@ -19,6 +20,7 @@ const Routes =()=>{
                 <Route   path="/landing" component={LandingPage}/> 
                 <Route   path="/cooking" component={CookingPage}/> 
                 <Route   path="/painting" component={PaintingPage}/> 
+                <Route   path="/online" component={OnlinePage}/> 
             </Switch>
         </div>
     </Router>
