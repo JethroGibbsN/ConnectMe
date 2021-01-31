@@ -33,14 +33,18 @@ function LandingPage() {
         <h2 className="h22">About Us</h2>
 
         <p>
-          With the evolving situation during the pandemic, people are facing
-          many challenges. Such as socializing with others. It is getting very
-          difficult to hangout with your loved ones and meeting new people. This
-          leads to a huge affect on our mental health. This is why we wanted to
-          create a tool where people from different ages and backgrounds can
-          connect using **ConnectMe** tool. It gives a chance to meet new people
-          who have similar interests to yours to talk about what you love, teach
-          what you know, and learn new things.
+          ConnectMe is a webApp that provides you a safe space to share your
+          interests of anything. Like, cooking, playing chess, and art.
+          ConnectMe gives a chance to meet new people virtually who share
+          similar interests to yours. You can sign up and create a profile and
+          then search for a specific interest or you can check the activities
+          pages to navigate through different activities. After choosing one,
+          you check if there are any available/online users to connect with. If
+          so, all you have to do is to click on the connect button to go to a
+          separate page where you both are provided with an amazing interaction
+          page. There you can talk about what you love, teach what you know, and
+          learn new things using the live sharing screen section and the
+          chat/video feature.
         </p>
       </div>
     </div>
