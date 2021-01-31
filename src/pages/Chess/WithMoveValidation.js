@@ -152,7 +152,7 @@ class HumanVsHuman extends Component {
 
 export default function WithMoveValidation() {
   return (
-    <div>
+    <div >
       <HumanVsHuman>
         {({
           position,

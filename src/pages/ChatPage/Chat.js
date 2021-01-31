@@ -4,13 +4,14 @@ import Demo from '../Chess/Demo'
 import './Chat.css'
 
 function ChatPage() {
-    return (
+  return (
+      <>
       <div className="ChatPage">
         <div className='center'>
-          <button id="center" className="main-title"> Chess Game</button>    
+          <button id="center" className="main-title"> Chess Game</button>
         </div>
 
-        <div className='center'> 
+        <div className='center'>
           <button className='paragraph'>You can now play a match tournamet with your new friend! </button>
         </div>
 
@@ -19,10 +20,10 @@ function ChatPage() {
 
       <Footer/>
       </div>
-
+  </>
     );
   }
-  
+
   export default ChatPage;
 
 // <Footer/>
