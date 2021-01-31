@@ -37,10 +37,10 @@ function LandingPage() {
           many challenges. Such as socializing with others. It is getting very
           difficult to hangout with your loved ones and meeting new people. This
           leads to a huge affect on our mental health. This is why we wanted to
-          create a tool where people from diffrent ages and backgrounds can
-          connect using ConnectMe tool. It gives a chance to meet new people who
-          have similar interests to yours to talk about it, teach it, and learn
-          from them.
+          create a tool where people from different ages and backgrounds can
+          connect using **ConnectMe** tool. It gives a chance to meet new people
+          who have similar interests to yours to talk about what you love, teach
+          what you know, and learn new things.
         </p>
       </div>
     </div>
