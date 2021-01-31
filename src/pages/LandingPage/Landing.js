@@ -41,9 +41,9 @@ function LandingPage() {
         </button>
       </div> */}
       <img className="join" src={join}></img>
-      <img src={capture}></img>
+      <img className="three" src={capture}></img>
 
-      <div>
+      <div className="text">
         <h2 className="h22">About Us</h2>
 
         <p>
@@ -54,7 +54,7 @@ function LandingPage() {
           create a tool where people from diffrent ages and backgrounds can
           connect using ConnectMe tool. It gives a chance to meet new people who
           have similar interests to yours to talk about it, teach it, and learn
-          it.
+          from them.
         </p>
       </div>
     </div>
