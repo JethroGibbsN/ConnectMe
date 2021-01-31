@@ -10,9 +10,11 @@ Humans are social beings and with this unusual situation we live in, people are 
 ## How We built it
 **ConnectMe** was built using 
 - React 
-- HTML, CSS, JavaScript
-- AdobexD
 - WebRTC
+- socket.io
+- HTML, CSS, JavaScript
+- chess_api
+- AdobexD
 
 ## Challenges I ran into
 - Visualization Utilization in React
