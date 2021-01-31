@@ -8,14 +8,19 @@ Humans are social beings and with this unusual situation we live in, people are 
 **ConnectMe** is a webApp that provides you a safe space to share your interests of anything. Like, cooking, playing chess, and art. ConnectMe gives a chance to meet new people _virtually_ who share similar interests to yours. You can sign up and create a profile and then search for a specific interest or you can check the activities pages to navigate through different activities. After choosing one, you check if there are any available/online users to connect with. If so, all you have to do is to click on the connect button to go to a separate page where you both are provided with an amazing interaction page. There you can talk about what you love, teach what you know, and learn new things using the live sharing screen section and the chat/video feature.
 
 ## How We built it
-**ConnectMe** was build using 
+**ConnectMe** was built using 
 - React 
-- HTML and CSS
+- HTML, CSS, JavaScript
 - AdobexD
+- WebRTC
 
 ## Challenges I ran into
-_With new ideas challenges come._ 
-
+- Visualization Utilization in React
 
 ## What's next for ConnectMe
-The next step for ConnectMe is to make it more interactive and user friendly with more features like live cooking and art tutorials.
+This is not the end of ConnectMe! The next step for ConnectMe is to make it more interactive and user friendly with more features like 
+- live cooking art tutorials.
+- a user profile page,
+- more activities, 
+- implementation of video chats for more than 2 people
+
