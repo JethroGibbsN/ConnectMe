@@ -1,9 +1,6 @@
 import react from "react";
 import "./Landing.css";
 import hand from "../img/hands.PNG";
-// import box1 from "../img/box1.PNG";
-// import box2 from "../img/box2.PNG";
-// import box3 from "../img/box3.PNG";
 import capture from "../img/Capture.PNG";
 import join from "../img/join.PNG";
 
@@ -29,17 +26,6 @@ function LandingPage() {
         <img className="img1" src={hand}></img>
       </div>
 
-      {/* <div className="flex3">
-        <img src={box1}></img>
-        <img src={box2}></img>
-        <img src={box3}></img>
-      </div> */}
-
-      {/* <div className="center">
-        <button className="paragraph">
-          Search for Interests and Find a Mutual Friend{" "}
-        </button>
-      </div> */}
       <img className="join" src={join}></img>
       <img className="three" src={capture}></img>
 
