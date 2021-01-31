@@ -1,12 +1,12 @@
 
 
-*{
+/* *{
     background-image: linear-gradient(to bottom right, #A1C4FD, #C2E9FB); 
    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
-}
+} */
 
 div#homepage_title{
     width: 350px;

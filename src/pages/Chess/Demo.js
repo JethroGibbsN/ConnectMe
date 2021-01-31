@@ -7,8 +7,8 @@ class Demo extends Component {
     return (
       <div>
         <div style={boardsContainer}>
-          
-          <Chessboard position="start"/>
+        
+        <Chessboard position="start"/>
 
         </div>
       </div>
@@ -18,6 +18,7 @@ class Demo extends Component {
 
 export default Demo;
 // <WithMoveValidation />
+// <Chessboard position="start"/>
 const boardsContainer = {
   display: "flex",
   justifyContent: "space-around",

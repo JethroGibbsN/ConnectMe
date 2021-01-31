@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from  '../layout/Layout.js';
 import Demo from '../Chess/Demo'
 import './Chat.css'
-import Card from '../img/box.png';
+
 function ChatPage() {
     return (
       <div className="ChatPage">

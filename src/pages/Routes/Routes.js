@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ChatPage from '../ChatPage/Chat.js'
 import LandingPage from '../LandingPage/Landing.js'
 import HomePage from '../HomePage/Home.js'
+import CookingPage from '../CookingPage/cooking.js'
+import PaintingPage from '../PaintingPage/painting.js'
 // import SiderDemo from '../layout/Layout.js'
 
 const Routes =()=>{
@@ -13,8 +15,10 @@ const Routes =()=>{
         <div>
             <Switch>
                 <Route  exact path='/' component={HomePage} />
-                <Route   path='/chat' component={ChatPage} />
+                <Route   path='/chess' component={ChatPage} />
                 <Route   path="/landing" component={LandingPage}/> 
+                <Route   path="/cooking" component={CookingPage}/> 
+                <Route   path="/painting" component={PaintingPage}/> 
             </Switch>
         </div>
     </Router>
